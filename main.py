@@ -96,12 +96,14 @@ def create_pdf(cards, output_path):
     c.save()
 
 
-cards = [
-    {
-        "title": "Card 1",
-        "image_path": r"C:\Users\Dmitri\Downloads\week7_1100.jpg",
-        "description": "Description of card 1",
-    },
-]
+# cards = [
+#     {
+#         "title": "Card 1",
+#         "image_path": r"C:\Users\Dmitri\Downloads\week7_1100.jpg",
+#         "description": "Description of card 1",
+#     },
+# ]
+
+cards = []
 
 create_pdf(cards, "cards.pdf")
