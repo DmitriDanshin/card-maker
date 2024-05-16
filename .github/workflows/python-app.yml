@@ -27,9 +27,9 @@ jobs:
         pip install -r requirements.txt
     - name: Lint with flake8
       run: |
-        - flake8 .
-        - black --check .
-        - isort --check-only .
+        flake8 .
+        black --check .
+        isort --check-only .
     - name: Test with pytest
       run: |
         pytest
